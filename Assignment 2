@@ -1,0 +1,46 @@
+
+Which field of the customers table is the primary key?
+	+------+----------+----------+--------+------+
+| Cnum | Cname    | City     | Rating | Snum |
++------+----------+----------+--------+------+
+| 2001 | Hoffman  | London   |    100 | 1001 |
+| 2002 | Giovanni | Rome     |    200 | 1003 |
+| 2003 | Liu      | San Jose |    200 | 1002 |
+| 2004 | Grass    | Berlin   |    300 | 1002 |
+| 2006 | Clemens  | London   |    100 | 1001 |
+| 2008 | Cisneros | San Jose |    300 | 1007 |
+| 2007 | Pereira  | Rome     |    100 | 1004 |
++------+----------+----------+--------+------+
+
+ANS- Cnum is the primary key
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+What is the 4th column of the customers table
+
+| Cnum | Cname    | City     | Rating | Snum |
++------+----------+----------+--------+------+
+| 2001 | Hoffman  | London   |    100 | 1001 |
+| 2002 | Giovanni | Rome     |    200 | 1003 |
+| 2003 | Liu      | San Jose |    200 | 1002 |
+| 2004 | Grass    | Berlin   |    300 | 1002 |
+| 2006 | Clemens  | London   |    100 | 1001 |
+| 2008 | Cisneros | San Jose |    300 | 1007 |
+| 2007 | Pereira  | Rome     |    100 | 1004 |
++------+----------+----------+--------+------+
+
+ANS - Rating is the 4th coulmn of the customers table
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+What is the another word for row? for column?
+
+ANS- Row is often called as 'Tuple' or 'Record'
+     Column is called as 'Field' or 'Attribute'
+     
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Why it isn't possible to see the first five rows of the column?
+
+ANS- All the rows are scattered ovear all the database HD. This is to allow multiuser functionality.When we use select command order of rows to be shown in output are dependent upon row address.Rows in output will always be shown in ascending order of the row adsresses.      
+ 
